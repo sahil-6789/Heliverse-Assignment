@@ -1,0 +1,29 @@
+.filter-button-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .filter-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .filter-overlay {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 16px;
+    width: 200px;
+  }
+  
+  /* Additional styling for the filter content goes here */
+  
+  
