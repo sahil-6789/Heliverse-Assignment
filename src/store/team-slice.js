@@ -32,7 +32,7 @@ const teamSlice = createSlice({
    state.use=false;
    },
    front(state){
-    state.frontPage=false;
+    state.frontPage=!state.frontPage;
    }
   }
 });
